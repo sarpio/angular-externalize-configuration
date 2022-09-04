@@ -39,10 +39,10 @@ export function setupAppConfigServiceFactory(
       provide: APP_INITIALIZER,
       useFactory: setupAppConfigServiceFactory,
       deps: [
-          AppConfigService
+        AppConfigService
       ],
       multi: true
-  }  ],
+    }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
