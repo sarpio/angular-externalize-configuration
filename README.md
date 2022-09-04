@@ -64,4 +64,5 @@ constructor(private config: AppConfigService) {
     this.apiUrl = config.data.apiUrl!;
   }
 ```
-### 6. Now you can use `ng build` to generate finals code id `dist` folder. Folder includes app.config.json file which can be modified it terms of used values including link to rest api withour using `ng build`. 
+### 6. Final step.
+Now you can use `ng build` to generate finals code id `dist` folder. Folder includes app.config.json file which can be modified it terms of used values including link to rest api withour using `ng build`. 
